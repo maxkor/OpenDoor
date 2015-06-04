@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B57F9B21B20BEED00E4A07C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B57F9B11B20BEED00E4A07C /* AppDelegate.swift */; };
+		8B57F9B51B20BEED00E4A07C /* OpenDoor.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8B57F9B31B20BEED00E4A07C /* OpenDoor.xcdatamodeld */; };
+		8B57F9B71B20BEED00E4A07C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B57F9B61B20BEED00E4A07C /* ViewController.swift */; };
+		8B57F9BA1B20BEED00E4A07C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B57F9B81B20BEED00E4A07C /* Main.storyboard */; };
+		8B57F9BC1B20BEED00E4A07C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B57F9BB1B20BEED00E4A07C /* Images.xcassets */; };
+		8B57F9BF1B20BEED00E4A07C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B57F9BD1B20BEED00E4A07C /* LaunchScreen.xib */; };
+		8B57F9CB1B20BEED00E4A07C /* OpenDoorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B57F9CA1B20BEED00E4A07C /* OpenDoorTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8B57F9C51B20BEED00E4A07C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B57F9A41B20BEED00E4A07C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B57F9AB1B20BEED00E4A07C;
+			remoteInfo = OpenDoor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8B57F9AC1B20BEED00E4A07C /* OpenDoor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenDoor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B57F9B01B20BEED00E4A07C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B57F9B11B20BEED00E4A07C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8B57F9B41B20BEED00E4A07C /* OpenDoor.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OpenDoor.xcdatamodel; sourceTree = "<group>"; };
+		8B57F9B61B20BEED00E4A07C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8B57F9B91B20BEED00E4A07C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8B57F9BB1B20BEED00E4A07C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8B57F9BE1B20BEED00E4A07C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		8B57F9C41B20BEED00E4A07C /* OpenDoorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenDoorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B57F9C91B20BEED00E4A07C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B57F9CA1B20BEED00E4A07C /* OpenDoorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenDoorTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B57F9A91B20BEED00E4A07C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B57F9C11B20BEED00E4A07C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B57F9A31B20BEED00E4A07C = {
+			isa = PBXGroup;
+			children = (
+				8B57F9AE1B20BEED00E4A07C /* OpenDoor */,
+				8B57F9C71B20BEED00E4A07C /* OpenDoorTests */,
+				8B57F9AD1B20BEED00E4A07C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8B57F9AD1B20BEED00E4A07C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B57F9AC1B20BEED00E4A07C /* OpenDoor.app */,
+				8B57F9C41B20BEED00E4A07C /* OpenDoorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B57F9AE1B20BEED00E4A07C /* OpenDoor */ = {
+			isa = PBXGroup;
+			children = (
+				8B57F9B11B20BEED00E4A07C /* AppDelegate.swift */,
+				8B57F9B61B20BEED00E4A07C /* ViewController.swift */,
+				8B57F9B81B20BEED00E4A07C /* Main.storyboard */,
+				8B57F9BB1B20BEED00E4A07C /* Images.xcassets */,
+				8B57F9BD1B20BEED00E4A07C /* LaunchScreen.xib */,
+				8B57F9B31B20BEED00E4A07C /* OpenDoor.xcdatamodeld */,
+				8B57F9AF1B20BEED00E4A07C /* Supporting Files */,
+			);
+			path = OpenDoor;
+			sourceTree = "<group>";
+		};
+		8B57F9AF1B20BEED00E4A07C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B57F9B01B20BEED00E4A07C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8B57F9C71B20BEED00E4A07C /* OpenDoorTests */ = {
+			isa = PBXGroup;
+			children = (
+				8B57F9CA1B20BEED00E4A07C /* OpenDoorTests.swift */,
+				8B57F9C81B20BEED00E4A07C /* Supporting Files */,
+			);
+			path = OpenDoorTests;
+			sourceTree = "<group>";
+		};
+		8B57F9C81B20BEED00E4A07C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B57F9C91B20BEED00E4A07C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B57F9AB1B20BEED00E4A07C /* OpenDoor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B57F9CE1B20BEED00E4A07C /* Build configuration list for PBXNativeTarget "OpenDoor" */;
+			buildPhases = (
+				8B57F9A81B20BEED00E4A07C /* Sources */,
+				8B57F9A91B20BEED00E4A07C /* Frameworks */,
+				8B57F9AA1B20BEED00E4A07C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenDoor;
+			productName = OpenDoor;
+			productReference = 8B57F9AC1B20BEED00E4A07C /* OpenDoor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8B57F9C31B20BEED00E4A07C /* OpenDoorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B57F9D11B20BEED00E4A07C /* Build configuration list for PBXNativeTarget "OpenDoorTests" */;
+			buildPhases = (
+				8B57F9C01B20BEED00E4A07C /* Sources */,
+				8B57F9C11B20BEED00E4A07C /* Frameworks */,
+				8B57F9C21B20BEED00E4A07C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B57F9C61B20BEED00E4A07C /* PBXTargetDependency */,
+			);
+			name = OpenDoorTests;
+			productName = OpenDoorTests;
+			productReference = 8B57F9C41B20BEED00E4A07C /* OpenDoorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B57F9A41B20BEED00E4A07C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Koding;
+				TargetAttributes = {
+					8B57F9AB1B20BEED00E4A07C = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					8B57F9C31B20BEED00E4A07C = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 8B57F9AB1B20BEED00E4A07C;
+					};
+				};
+			};
+			buildConfigurationList = 8B57F9A71B20BEED00E4A07C /* Build configuration list for PBXProject "OpenDoor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8B57F9A31B20BEED00E4A07C;
+			productRefGroup = 8B57F9AD1B20BEED00E4A07C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B57F9AB1B20BEED00E4A07C /* OpenDoor */,
+				8B57F9C31B20BEED00E4A07C /* OpenDoorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B57F9AA1B20BEED00E4A07C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B57F9BA1B20BEED00E4A07C /* Main.storyboard in Resources */,
+				8B57F9BF1B20BEED00E4A07C /* LaunchScreen.xib in Resources */,
+				8B57F9BC1B20BEED00E4A07C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B57F9C21B20BEED00E4A07C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B57F9A81B20BEED00E4A07C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B57F9B71B20BEED00E4A07C /* ViewController.swift in Sources */,
+				8B57F9B21B20BEED00E4A07C /* AppDelegate.swift in Sources */,
+				8B57F9B51B20BEED00E4A07C /* OpenDoor.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B57F9C01B20BEED00E4A07C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B57F9CB1B20BEED00E4A07C /* OpenDoorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8B57F9C61B20BEED00E4A07C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B57F9AB1B20BEED00E4A07C /* OpenDoor */;
+			targetProxy = 8B57F9C51B20BEED00E4A07C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8B57F9B81B20BEED00E4A07C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B57F9B91B20BEED00E4A07C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8B57F9BD1B20BEED00E4A07C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B57F9BE1B20BEED00E4A07C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8B57F9CC1B20BEED00E4A07C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8B57F9CD1B20BEED00E4A07C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B57F9CF1B20BEED00E4A07C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OpenDoor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8B57F9D01B20BEED00E4A07C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OpenDoor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8B57F9D21B20BEED00E4A07C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OpenDoorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenDoor.app/OpenDoor";
+			};
+			name = Debug;
+		};
+		8B57F9D31B20BEED00E4A07C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OpenDoorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenDoor.app/OpenDoor";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B57F9A71B20BEED00E4A07C /* Build configuration list for PBXProject "OpenDoor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B57F9CC1B20BEED00E4A07C /* Debug */,
+				8B57F9CD1B20BEED00E4A07C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B57F9CE1B20BEED00E4A07C /* Build configuration list for PBXNativeTarget "OpenDoor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B57F9CF1B20BEED00E4A07C /* Debug */,
+				8B57F9D01B20BEED00E4A07C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8B57F9D11B20BEED00E4A07C /* Build configuration list for PBXNativeTarget "OpenDoorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B57F9D21B20BEED00E4A07C /* Debug */,
+				8B57F9D31B20BEED00E4A07C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8B57F9B31B20BEED00E4A07C /* OpenDoor.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8B57F9B41B20BEED00E4A07C /* OpenDoor.xcdatamodel */,
+			);
+			currentVersion = 8B57F9B41B20BEED00E4A07C /* OpenDoor.xcdatamodel */;
+			path = OpenDoor.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8B57F9A41B20BEED00E4A07C /* Project object */;
+}
